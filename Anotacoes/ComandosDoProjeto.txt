@@ -1,0 +1,24 @@
+1. yarn init -y
+
+2. yarn add express
+
+3. yarn add @types/express -D
+
+4. yarn add typescript -D. Ao adicionarmos o typscript 
+no nosso projeto adicionamos também automaticamente o tsc.
+
+5. yarn tsc --init. Inicializa um projeto TypeScript e cria um tsconfig.jsonarquivo. 
+Por padrão o Node não consegue entender o "import" e outras coisas usadas pelo typescript 
+então precisamos converter o código para Javascript com o tsc(typescript conversor).
+
+6. Descomentar a configuração "outDir" do arquivo tsconfig.json e definir o caminho para uma 
+pasta para receber os arquivos js gerados a partir dos arquivos typescript(No nosso 
+caso definimos o caminho para uma pasta dist na raiz do projeto, então o caminho 
+ficou ""./dist). Caso não façamos isso então os arquivos js serão criados na mesma 
+pasta do seu respectivo arquivo typescript.
+
+7. yarn tsc. Cria arquivos js a partir dos arquivos typescript. 
+
+8. node "caminhoDaPastaJS escolhida no passo6". No nosso caso ficaria node dist/server.js
+
+9. Toda vez que alterarmos o código precisamos rodar novamente o comando yarn tsc e o passo 8.      

@@ -1,0 +1,31 @@
+CARACTERÍSTICAS DO TYPESCRIPT:
+
+1. É uma linguagem open Source da microsoft, 
+ou seja a comunidade pode cooperar com o codigo que esta sendo desenvolvido.
+
+2. É o javaScript com algumas funcionalidades a mais.
+
+3. Tem tipagem ESTÁTICA, ou seja, não permite alterarmos o tipo da variável 
+depois que ela é declarada.
+
+4. TYPESCRIPT auxilia no desenvolvimento. Só é usada em ambiente de desenvolvimento.
+
+PORQUE USAR O TYPESCRIPT:
+
+1. Ele ajuda a evitar erros de "tipos" de dados, por exemplo, colocar um Number 
+em um campo que deve ser String.
+
+2. Ajuda a documentar a aplicação quanto aos dados que ela espera receber 
+nos parâmetros dos métodos.
+
+MITOS E VERDADES:
+
+1. O TYPESCRIPT veio para substituir o javaScript? Não, veio apenas complementar/ajudar 
+em ambiente de desenvolvimento, no final tudo é convertido apra javaScript.
+
+2. Posso usar TYPESCRIPT e javaScript puro no mesmo projeto? Sim.
+
+3. Preciso tipar todas as variáveis? Não.
+
+4. TYPESCRIPT veio para transformar javaScript em C# ou Java? Não.
+
